@@ -7,7 +7,7 @@ public class AsciiChars
 		  System.out.print((char)c + ", ");
 	  }
 	  //creates some space between sections
-	  System.out.println("\n\n");
+	  System.out.println("\n");
   }
 
   public static void printLowerCase()
@@ -17,7 +17,7 @@ public class AsciiChars
 		  System.out.print((char)c + ", ");
 	  }
 	  //creates some space between sections
-	  System.out.println("\n\n");
+	  System.out.println("\n");
   }
 
   public static void printUpperCase()
@@ -27,6 +27,6 @@ public class AsciiChars
 		  System.out.print((char)c + ", ");
 	  }
 	  //creates some space between sections
-	  System.out.println("\n\n");
+	  System.out.println("\n");
   }
 }//end of AsciiChars class
