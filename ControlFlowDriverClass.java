@@ -46,6 +46,7 @@ public class ControlFlowDriverClass {
 			//getting input from user
 			System.out.print("Do you have a red car? (yes, no): ");
 			String redCar = isInputBad(scnr.next());
+			//red car variable is useless, but required by project doc
 			
 			System.out.print("What's the name of your favorite pet? ");
 			String petName = isInputBad(scnr.next());
@@ -201,7 +202,7 @@ public class ControlFlowDriverClass {
 		boolean b = m.find();
 		
 		 while (b == true) {//if b is true, input is bad
-			   System.out.print("Whoops! Enter a NUMBER for this question using the digits listed at the top of the program: ");
+			   System.out.print("Whoops! Enter a positive NUMBER for this question using the digits listed at the top of the program: ");
 			   numToCorrect = scnr.next();
 			   p = Pattern.compile("[^0-9 ]", Pattern.CASE_INSENSITIVE);
 			   m = p.matcher(numToCorrect);
